@@ -6,7 +6,7 @@ body {
     font-size: 18px;
 }
 
-.container {
+main .container, footer .container {
     display: grid;
     padding: 20px;
     margin: 0 auto;
@@ -14,9 +14,28 @@ body {
     width: 100%;
 }
 
+header .container {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 960px;
+    width: 100%;
+}
+
+header .container h1{
+    margin-top: 0px;
+    float: left;  
+  }
+
+header .container nav{
+  margin-top: -20px;
+  padding-top: 0px;
+  float: right;
+}
+
 header{
     background-color: white;
     font-size: 18px;
+    padding-bottom: 30px;
 }
 
 header h1{
